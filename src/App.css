@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: sans-serif;
+    padding: 28px;
+    display: flex;
+    justify-content: center
+  };
+  
+  .flashcards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    width: 50%;
+  }
+  
+  .flashcards div {
+    border: 1px solid #e7e7e7;
+    background-color: grey;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 28px;
+    width: 40em;
+  }
+  
+  div .selected{
+    border: 1px solid #eB3131;
+    background-color: #eB3131;
+    color: #fff;
+    font-weight: bold;
+  }
